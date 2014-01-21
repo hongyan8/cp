@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item style="@android:color/black" android:drawable="@drawable/bottom_pic4" android:state_selected="true"/>
+    <item style="@android:color/darker_gray" android:drawable="@drawable/bottom_pic3" android:state_selected="false"/>
+
+</selector>

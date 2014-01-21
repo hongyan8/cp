@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/blue_qian"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:padding="5dp"
+    android:paddingBottom="5dp" >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/icon_main_info" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="消息占位置消息占位置消息占息占位置消息占位置消息占位置消息占位置" />
+
+</LinearLayout>

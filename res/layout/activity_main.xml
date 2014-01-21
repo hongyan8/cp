@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        android:tag="childe1" >
+
+        <include
+            android:id="@+id/windowtitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/windowtitle" >
+        </include>
+
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="0dp"
+            android:layout_height="0dp" />
+
+        <FrameLayout
+            android:id="@+id/main_content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/windowtitle"
+            android:tag="main_content" />
+
+        <!--
+             <com.chinacreator.mobileoa.ui.activity.common.CommKeyboardListenRelativeLayout
+            android:id="@+id/keyboardRelativeLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true" >
+        -->
+
+        <ScrollView
+            android:id="@+id/scrollView_main"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:fillViewport="true"
+            android:scrollbars="none" >
+
+            <LinearLayout
+                android:id="@+id/layout_tab_main"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TabWidget
+                    android:id="@android:id/tabs"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/tab_bg" />
+            </LinearLayout>
+        </ScrollView>
+        <!-- </com.chinacreator.mobileoa.ui.activity.common.CommKeyboardListenRelativeLayout> -->
+    </RelativeLayout>
+
+</TabHost>

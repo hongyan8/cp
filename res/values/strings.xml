@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Lottery</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="dealing">处理中,请稍等...</string>
+    <string name="confirm_num">确定选号</string>
+    <string name="machine_choose">机选</string>
+    <string name="confirm_logout">确定注销?</string>
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+
+    <!-- Main -->
+    <string name="gcdt">购彩大厅</string>
+    <string name="wdcp">我的彩票</string>
+    <string name="kjgg">开奖公告</string>
+    <string name="setting">设置</string>
+
+    <!-- login -->
+    <string name="user_name">账号</string>
+    <string name="user_pwd">密码</string>
+    <string name="user_name_hint">请输入账号</string>
+    <string name="user_pwd_hint">请输入密码</string>
+    <string name="remember_pwd">记住密码</string>
+    <string name="auto_login">自动登录</string>
+    <string name="register">注册</string>
+    <string name="login">登录</string>
+    <string name="user_nick_name">昵称</string>
+    <string name="user_nick_name_hint">请输入昵称</string>
+    <string name="user_phone">手机号</string>
+    <string name="user_phone_hint">请输入手机号</string>
+    <string name="user_email">邮箱地址</string>
+    <string name="user_email_hint">请输入邮箱地址</string>
+
+    <!-- 购彩 -->
+    <string name="gc_dlt">大乐透</string>
+    <string name="gc_dlt_empty_toast">请至少选择5个红球和2个蓝球</string>
+    <string name="gc_qxc">七星彩</string>
+    <string name="gc_qxc_empty_toast">每位至少选择1个号码</string>
+    <string name="gc_add_choose">添加手选号码</string>
+    <string name="gc_add_choose_machine">添加1注机选</string>
+    <string name="gc_dstz">单式投注</string>
+    <string name="gc_fstz">复式投注</string>
+    <string name="gc_confirm_pay">确认付款</string>
+    <string name="gc_zhui">追</string>
+    <string name="gc_qi">期</string>
+    <string name="gc_tou">投</string>
+    <string name="gc_bei">倍</string>
+
+    <!-- 订单 -->
+    <string name="order_detail">订单详情</string>
+    <string name="order_no">订 单 号</string>
+    <string name="order_paydate">支付时间</string>
+    <string name="order_tz_money">投注金额</string>
+    <string name="order_zj_money">中奖金额</string>
+    <string name="order_warm">温馨提示</string>
+    <string name="order_status">订单状态</string>
+    <string name="order_content">投注内容</string>
+    <string name="order_flag">标 识 码</string>
+    <string name="order_beishu">倍       数</string>
+    <string name="order_zhushu">注       数</string>
+    <string name="order_number">开奖号码</string>
+
+</resources>

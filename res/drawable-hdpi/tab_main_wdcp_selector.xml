@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item style="@android:color/black" android:drawable="@drawable/tab_my_lottery_cur" android:state_selected="true"/>
+    <item style="@android:color/darker_gray" android:drawable="@drawable/tab_my_lottery" android:state_selected="false"/>
+
+</selector>

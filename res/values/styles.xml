@@ -1,0 +1,185 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="Dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <!-- 模糊 -->
+        <item name="android:windowIsTranslucent">false</item>
+        <!-- 半透明 -->
+        <item name="android:background">@color/transparent</item>
+        <item name="android:windowBackground">@null</item>
+    </style>
+    <!-- 无背景 -->
+    <style name="NoBgDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@color/transparent</item>
+    </style>
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <!-- 白色背景 -->
+    <style name="StyleWhiteGround">
+        <item name="android:background">#f0f0f0</item>
+    </style>
+
+    <style name="NoTitleBarFullscreen">
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <!-- 用于标题操作栏的文字样式 -->
+    <style name="Caption_TextView">
+        <item name="android:textSize">22.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:shadowColor">#ff000000</item>
+        <item name="android:shadowDx">1.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+
+    <!-- 黑色背景框 -->
+    <style name="layout_background">
+        <item name="android:padding">2dp</item>
+        <item name="android:background">@drawable/shape_top_line</item>
+    </style>
+
+    <!-- 黑色背景框  无圆角 -->
+    <style name="layout_background_no_conner">
+        <item name="android:padding">5dp</item>
+        <item name="android:background">@drawable/shape_outline_no_coner</item>
+    </style>
+    <!-- checkbox -->
+    <style name="MyCheckBox" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/check_selector</item>
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <!-- 登录按钮 -->
+    <style name="loginbtn_redbg_white22">
+        <item name="android:textSize">22.0sp</item>
+        <item name="android:background">@drawable/btn_login_selector</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="red_num_check_style">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textColor">@drawable/textview_red_number_fun </item>
+    </style>
+
+    <style name="blue_num_check_style">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textColor">@drawable/textview_blue_number_fun </item>
+    </style>
+
+    <!-- 圆角框 左右padding5dp 黑色 14 -->
+    <style name="input_number_style">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:paddingBottom">2dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/shape_top_line</item>
+    </style>
+
+    <!-- **************************************分割******************************************* -->
+
+
+    <!-- 字体 白色 13 -->
+    <style name="textview_white13">
+        <item name="android:textSize">13.0sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <!-- 字体 白色 16 -->
+    <style name="textview_white16">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <!-- 字体 白色 18 -->
+    <style name="textview_white18">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <!-- 字体 黑色 16 -->
+    <style name="textview_black16">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    
+     <!-- 字体 黑色 14 -->
+    <style name="textview_black14">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <!-- 字体 黑色 20 -->
+    <style name="textview_black20">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <!-- 字体 红色16 -->
+    <style name="textview_red16">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#990000</item>
+    </style>
+    <!-- 字体 红色12 -->
+    <style name="textview_red12">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">#990000</item>
+    </style>
+    <!-- 字体 红色20 -->
+    <style name="textview_red20">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textColor">#990000</item>
+    </style>
+    <!-- 球  字体 红色14 -->
+    <style name="textview_confirm_pay_red">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#FF4040</item>
+    </style>
+    <!-- 球  字体 蓝色14 -->
+    <style name="textview_confirm_pay_blue">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#6495ED</item>
+    </style>
+
+    <!-- 字体 黑色 16 加粗 -->
+    <style name="textview_black16_bold">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <!-- 字体 灰色 16 -->
+    <style name="textview_gray16">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@color/gray</item>
+    </style>
+     <!-- 字体 灰色 14 -->
+    <style name="textview_gray14">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">@color/gray</item>
+    </style>
+
+</resources>
