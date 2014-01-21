@@ -66,7 +66,7 @@ public class MyLotteryFragment extends BaseFragment
 	@Override
 	protected Object onEndTaskAddView(Object result)
 	{
-		// TODO 界面和数据的适配操作
+		// TODO 界面和数据的适配操作    
 
 		if (getView() == null)
 		{
